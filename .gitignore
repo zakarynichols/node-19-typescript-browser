@@ -1,0 +1,12 @@
+node_modules
+
+build
+
+tests
+
+stderr.log
+stdout.log
+
+dist
+
+coverage
