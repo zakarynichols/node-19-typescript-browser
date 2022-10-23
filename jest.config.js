@@ -2,7 +2,7 @@
 const config = {
   verbose: true,
   collectCoverage: true,
-  roots: ["<rootDir>/build"],
+  roots: ["<rootDir>/public/build"],
   testEnvironment: "jsdom",
 };
 

@@ -1,1 +1,1 @@
-import { appendToBody, logger } from "./console.js";
+export { appendToBody, logger } from "./console.js";

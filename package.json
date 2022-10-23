@@ -25,8 +25,8 @@
   "license": "MIT",
   "browser": "/build/index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js -c=jest.config.js --watch ./build",
-    "watch-typescript": "rm -rf build && tsc --watch",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js -c=jest.config.js --watchAll",
+    "watch-typescript": "rm -rf ./public/build && tsc --watch",
     "watch-dev": "node --watch build/index.js",
     "build": "rm -rf dist && tsc --project tsconfig.prod.json"
   },
