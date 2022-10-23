@@ -1,6 +1,6 @@
 # Node v19.0.0 TypeScript and Jest w/Live Reload - Browser
 
-A minimal boilerplate example demonstrating Node utilizing ECMAScript modules with TypeScript and Jest.
+A minimal boilerplate example demonstrating ECMAScript modules with TypeScript and Jest in the browser.
 
 Take note of `"type": "module"` in the `package.json`. Jest will be able to interpret compiled ESNext code so long as the `--experimental-vm-modules` flag is used.
 
@@ -32,6 +32,6 @@ Tests are written in TS with ECMAScript modules, compiled to JS modules, and wat
 npm run test
 ```
 
-# Node (Browser)
+# Browser
 
-Node has ECMAScript module support for later versions of Node and TypeScript in the browser.
+Browser have ECMAScript module support for later versions of JavaScript in the browser.
