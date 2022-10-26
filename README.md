@@ -14,24 +14,14 @@ Take note of `"type": "module"` in the `package.json`. Jest will be able to inte
 npm run watch-typescript
 ```
 
-3. Open another terminal.
-
-4. Watch the emitted JavaScript during runtime.
-
-```
-npm run watch-development
-```
-
-5. Make changes to `/src`, TypeScript will re-compile, Node will watch the `/build` folder and live-reload.
-
 # Jest
+
+1. Open another terminal
+
+2. Run the tests. _Note:_ Must have ran `npm run watch-typescript` first.
 
 Tests are written in TS with ECMAScript modules, compiled to JS modules, and watched by Jest for live-reload. Support for JS modules in Jest is experimental, but very workable.
 
 ```
 npm run test
 ```
-
-# Browser
-
-Browser have ECMAScript module support for later versions of JavaScript in the browser.
