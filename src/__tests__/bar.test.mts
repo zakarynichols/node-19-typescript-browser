@@ -1,11 +1,11 @@
-import { bar } from "../bar.js";
-import { appendToBody, logger } from "../console.js";
+import { bar } from "../bar.mjs";
+import { appendToBody, logger } from "../console.mjs";
 import { jest } from "@jest/globals";
 
 const logSpy = jest.spyOn(console, "log");
 
 it("does not kill jest when using a module", () => {
-  expect(bar()).toBe("bar bar bar");
+  expect(bar()).toBe("bar");
 });
 
 it("logs text to the console", () => {

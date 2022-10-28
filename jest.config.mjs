@@ -1,9 +1,7 @@
 /** @type {import('jest').Config} */
-const config = {
+export default {
   verbose: true,
   collectCoverage: true,
   roots: ["<rootDir>/public/build"],
   testEnvironment: "jsdom",
 };
-
-export default config;
